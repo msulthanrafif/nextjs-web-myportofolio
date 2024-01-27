@@ -1,0 +1,7 @@
+nav {
+    background: rgb(127, 199, 217);
+}
+
+a.bg-button:hover {
+    background-color: rgb(54, 84, 134);
+}
