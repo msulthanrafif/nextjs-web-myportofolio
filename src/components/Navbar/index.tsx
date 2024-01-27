@@ -1,6 +1,6 @@
 import Image from "next/image"
-import LogoIcon from "@/asset/icons/logo.svg"
-import ProfileImage from "@/asset/images/profile.jpg"
+import LogoIcon from "@public/asset/icons/greater-than.png"
+import ProfileImage from "@public/asset/images/profile.jpg"
 import "./Navbar.css"
 import NavButton from "./NavButton"
 
