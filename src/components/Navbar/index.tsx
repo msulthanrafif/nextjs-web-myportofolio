@@ -1,15 +1,15 @@
 import Image from "next/image"
 import LogoIcon from "@/asset/icons/logo.svg"
-import ProfileImage from "@/asset/images/profile.png"
+import ProfileImage from "@/asset/images/profile.jpg"
 import "./Navbar.css"
 import NavButton from "./NavButton"
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="fixed w-full z-50">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                <div className="flex h-16 items-center justify-between">
-                    <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div className="hidden w-full h-16 items-center justify-between lg:flex">
+                    <div className="w-full flex flex-1 items-center justify-start">
                         <div className="flex flex-shrink-0 items-center">
                             <Image
                                 src={LogoIcon}

@@ -8,7 +8,7 @@ const navigation = [
   { id: '4', name: 'Calendar', href: '#' },
 ]
 
-const NavButton = (item: any) => {
+const NavButton = () => {
   return (
     <>
       <div className="flex space-x-4">
