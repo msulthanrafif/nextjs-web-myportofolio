@@ -2,10 +2,10 @@ import React from 'react'
 import "./Navbar.css"
 
 const navigation = [
-  { id: '1', name: 'Dashboard', href: '#' },
-  { id: '2', name: 'Team', href: '#' },
-  { id: '3', name: 'Projects', href: '#' },
-  { id: '4', name: 'Calendar', href: '#' },
+  { id: '1', name: 'Dashboard', href: '/' },
+  { id: '2', name: 'Projects', href: '/products' },
+  { id: '3', name: 'Team', href: '/' },
+  { id: '4', name: 'Calendar', href: '/' },
 ]
 
 const NavButton = () => {
